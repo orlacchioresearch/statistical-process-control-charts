@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Environments
+.env
+.venv/
+venv/
+
+# OS / editor cruft
+.DS_Store
+__MACOSX/
+
+# Generated control-limit tables (reproducible by running the script).
+# Figures are committed on purpose so the chart gallery renders on GitHub.
+results/*.csv
+!results/.gitkeep
